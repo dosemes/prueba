@@ -3,12 +3,12 @@ layout: page
 title: About
 ---
 
-Some information about you!
+Hello :-)!
 
-### More Information
+### Frontend Developer
 
-A place to include any other types of information that you'd like to include about yourself. 
+I work as a Senior Frontend Developer at [Perform Group](http://performgroup.com) since 1 April 2014.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[p.szelenberger@gmail.com](mailto:p.szelenberger@gmail.com)
