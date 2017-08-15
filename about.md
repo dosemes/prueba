@@ -7,7 +7,7 @@ Hello :-)!
 
 ### Frontend Developer
 
-I work as a Senior Frontend Developer at [Perform Group](http://performgroup.com) since 1 April 2014.
+I'm Frontend Developer.
 
 ### Contact me
 
