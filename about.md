@@ -19,7 +19,7 @@ Frontend Developer at [Videolicious](https://videolicious.com).
 
 ## Past
 
-Mostly I work as frontend developer in the past for many customers. You can find more details in [My Resume](/resume).
+Mostly I work as frontend developer in the past for many customers. You can find more details in [LinkedIn](https://www.linkedin.com/in/przemyslawszelenberger/).
 
 ## Code
 
