@@ -1,0 +1,20 @@
+{
+  "name": "th3mon-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3mon/th3mon.github.io.git"
+  },
+  "keywords": [],
+  "author": "Przemysław Szelenberger",
+  "license": "UNLICENSED",
+  "homepage": "http://szelenberger.pl/"
+}
