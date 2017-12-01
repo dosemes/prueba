@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Experienced Frontend Developer in the past Fullstack Developer.
