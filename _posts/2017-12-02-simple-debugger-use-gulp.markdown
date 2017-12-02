@@ -39,6 +39,10 @@ Things done
   - [gulp-util]
 - [ESLint] configuration file
 
+Things I didn't do
+
+- It has one dependency - [jQuery] and I will rid of it.
+
 [SimpleDebugger]: https://github.com/th3mon/SimpleDebugger
 [Babel]: https://babeljs.io/
 [jQuery]: https://jquery.com/
