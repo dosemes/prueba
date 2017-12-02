@@ -3,6 +3,9 @@ layout: post
 title:  "Use Gulp in Simple Debugger"
 categories: projects gulp SimpleDebugger
 ---
+
+## Gulp and BrowserSync
+
 I installed [Gulp] and plugins.
 
 I did some configuration.
@@ -13,22 +16,26 @@ Everything started work but I realized that I won't have support for newest ECMA
 
 I wanted that [SimpleDebugger] should be easily used in projects without dependencies needed to install. I want rid of [jQuery]. I love [jQuery]. The reason for ridding of it is that I don't want that [SimpleDebugger] had any dependencies.
 
-The bundled file just didn't work in a browser. I dropped [Babel] after hours of figuring out how to fix it.
+## Bundle won't work
+
+The bundled file, prepared by [Babel], just didn't work in a browser. I dropped [Babel] after hours of figuring out how to fix it.
 
 Today I started thinking that I should use [Babel] with [Webpack]. I will go that way. I think I will not need [Gulp] anymore and that is sad. I spend some time to configure [Gulp]. I think [Gulp] is the great tool and really easy to use.
+
+## So... Maybe Webpack will be helpful
 
 Maybe I think about [Webpack] as a hard to use is that I do not really know how it should be configured. I know that [Webpack] is really powerful.
 
 I want also use [BrowserSync] which I think is really cool and useful.
 
-Things to do
+## Things to do
 
 - use [Webpack]
 - use [Babel]
 - configure [Webpack] to use [BrowserSync]
 - rid of [Gulp] if it is necessary
 
-Things done
+## Things done
 
 - added [Gulp] and plugins
   - [gulp-concat]
@@ -39,7 +46,7 @@ Things done
   - [gulp-util]
 - [ESLint] configuration file
 
-Things I didn't do
+## Things I didn't do
 
 - It has one dependency - [jQuery] and I will rid of it.
 
