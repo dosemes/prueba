@@ -28,9 +28,27 @@ Things to do
 - configure [Webpack] to use [BrowserSync]
 - rid of [Gulp] if it is necessary
 
+Things done
+
+- added [Gulp] and plugins
+  - [gulp-concat]
+  - [gulp-eslint]
+  - [gulp-load-plugins]
+  - [gulp-sourcemaps]
+  - [gulp-uglify-es]
+  - [gulp-util]
+- [ESLint] configuration file
+
 [SimpleDebugger]: https://github.com/th3mon/SimpleDebugger
 [Babel]: https://babeljs.io/
 [jQuery]: https://jquery.com/
 [Webpack]: https://webpack.github.io/
 [Gulp]: https://gulpjs.com/
 [BrowserSync]: https://www.browsersync.io/
+[gulp-concat]: https://github.com/contra/gulp-concat
+[gulp-eslint]: https://github.com/adametry/gulp-eslint
+[gulp-load-plugins]: https://github.com/jackfranklin/gulp-load-plugins
+[gulp-sourcemaps]: https://github.com/gulp-sourcemaps/gulp-sourcemaps
+[gulp-uglify-es]: https://github.com/zgwit/gulp-uglify-es
+[gulp-util]: https://github.com/gulpjs/gulp-util
+[ESLint]: https://eslint.org/
