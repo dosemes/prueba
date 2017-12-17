@@ -48,6 +48,7 @@ I gained some experience and [Webpack] is simpler for me but I have questions wi
 - configure [Webpack] to use [BrowserSync]
 
 [SimpleDebugger]: https://github.com/th3mon/SimpleDebugger
+[SimpleDebugger’s Github]: https://github.com/th3mon/SimpleDebugger
 [jQuery]: https://jquery.com/
 [Gulp]: https://gulpjs.com/
 [webpack-dev-server]: https://github.com/webpack/webpack-dev-server
@@ -59,3 +60,5 @@ I gained some experience and [Webpack] is simpler for me but I have questions wi
 [Webpack 2 - A full tutorial]: https://www.youtube.com/watch?v=eWmkBNBTbMM&feature=youtu.be
 [BrowserSync]: https://www.browsersync.io/
 [HMR]: https://webpack.js.org/guides/hot-module-replacement/
+[Babel]: https://babeljs.io/
+[Sass]: http://sass-lang.com/
