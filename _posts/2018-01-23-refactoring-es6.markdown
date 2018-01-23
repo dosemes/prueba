@@ -111,7 +111,13 @@ module.exports = function (env) {
 
 And that's it! Simple enough!
 
-## Added bump version npm script
+## Added bump version [npm] script
+
+I added [npm] script for bumping the version number. I know this will be helpful. I used it in my work, so this is tested on the live object!
+
+```
+"version-bump": "npm run set-tag-prefix && npm version"
+```
 
 ## Things to do
 
@@ -128,3 +134,4 @@ And that's it! Simple enough!
 [Modules]: http://exploringjs.com/es6/ch_modules.html
 [Webpack]: https://webpack.github.io/
 [Github]: https://github.com/
+[npm]: https://www.npmjs.com/
