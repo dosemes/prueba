@@ -28,6 +28,89 @@ I moved **removeNode()** to **dom.js**. This function is not the default of this
 
 ## Satisfy TODO notes
 
+I added some TODO notes in the past and well, I satisfied them.
+
+One of those notes was about adding version a number to the bundles. I searched for some plugins for [Webpack]. There are some on [Github] but I realized I don't need a plugin. It is really simple to do that. You can grab the version of the project from `package.json` file and put to filename and source map.
+
+```js
+const webpack = require('webpack');
+const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
+const version = require('../package.json').version;
+
+module.exports = function (env) {
+  return {
+    devtool: 'cheap-module-source-map',
+    entry: {
+      main: './src/index.js'
+    },
+    output: {
+      path: path.resolve(__dirname, '../dist'),
+      filename: `[name].${version}.bundle.js`,
+      sourceMapFilename: `[name].${version}.map`
+    },
+    module: {
+      rules: [
+        {
+          enforce: 'pre',
+          test: /\.js$/,
+          exclude: /node_modules/,
+          loader: 'eslint-loader'
+        },
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env']
+            }
+          }
+        },
+        {
+          test: /\.css$/,
+          use: ExtractTextPlugin.extract({
+            fallback: 'style-loader',
+            use: 'css-loader'
+          })
+        },
+        {
+          test: /\.scss$/,
+          use: ExtractTextPlugin.extract({
+            fallback: 'style-loader',
+            use: [ 'css-loader', 'sass-loader' ]
+          })
+        }
+      ]
+    },
+    plugins: [
+      new ExtractTextPlugin({
+        filename: '[name].bundle.css'
+      }),
+      new HtmlWebpackPlugin({
+        title: 'SimpleDebugger',
+        alwaysWriteToDisk: true
+      }),
+      new HtmlWebpackHarddiskPlugin(),
+      new webpack.NamedModulesPlugin(),
+      new webpack.HotModuleReplacementPlugin()
+    ],
+    devServer: {
+      contentBase: './dist',
+      port: 7777,
+      host: 'localhost',
+      hot: true,
+      noInfo: false,
+      stats: 'minimal'
+    }
+  };
+};
+```
+
+And that's it! Simple enough!
+
 ## Added bump version npm script
 
 ## Things to do
@@ -43,3 +126,5 @@ I moved **removeNode()** to **dom.js**. This function is not the default of this
 [From constructors to classes]: http://exploringjs.com/es6/ch_core-features.html#sec_from-constr-to-class
 [modules]: http://exploringjs.com/es6/ch_modules.html
 [Modules]: http://exploringjs.com/es6/ch_modules.html
+[Webpack]: https://webpack.github.io/
+[Github]: https://github.com/
