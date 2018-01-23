@@ -20,6 +20,16 @@ I used it in [SimpleDebugger] and it works fine.
 
 ### [Modules]
 
+I moved [SimpleDebugger] Constructor and **removeNode()** to separate files.
+
+[SimpleDebugger] has its own file and it exports only this module.
+
+I moved **removeNode()** to **dom.js**. This function is not the default of this module. I think **dom** module will not have any default. It will be the collection of functions to do stuff on DOM.
+
+## Satisfy TODO notes
+
+## Added bump version npm script
+
 ## Things to do
 
 - (add smth...)
