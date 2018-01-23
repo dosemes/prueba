@@ -17,8 +17,8 @@ When all config was ready I wrote tests which tested existing features. Then I s
 ## Rid of [jQuery]
 
 …which was rid of [jQuery].
-One ot the goals from the start of mine comeback to [SimpleDebugger] project was rid of [jQuery].
-It is not reason that I don't like [jQuery]. I whant to [SimpleDebugger] to be independent.
+One of the goals from the start of mine comeback to [SimpleDebugger] project was rid of [jQuery].
+It is not reason that I don't like [jQuery]. I want to [SimpleDebugger] to be independent.
 
 With unit tests rid of dependence was easy. I always knew when I broke something and detected which feature works wrong and I fixed it.
 
