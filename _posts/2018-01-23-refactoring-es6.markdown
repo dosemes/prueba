@@ -121,11 +121,18 @@ I added [npm] script for bumping the version number. I know this will be helpful
 
 ## Things to do
 
-- (add smth...)
+- Fix MainContainer: Now it enlarges and would cover all window view
+- Create demo page
+- Create github page
+- add CI
+- add Code Coverage
 
 ## Things I done
 
-- (list things you've done)
+- Refactored Code to ES6
+- Moved code to separate modules
+- Satisfied TODO notes
+- created [npm] script for bumping version
 
 [SimpleDebugger]: https://github.com/th3mon/SimpleDebugger
 [ES5]: https://en.wikipedia.org/wiki/ECMAScript
