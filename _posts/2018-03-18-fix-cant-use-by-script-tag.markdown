@@ -4,15 +4,11 @@ title: "[WIP] How I fixed issue with using SimpleDebugger in browser"
 categories: SimpleDebugger
 ---
 
-## Wstep
+## Popełniłem błąd
 
-Przzeszukałem neta jak zrobić konfigurację [Webpack]'a pod developoeanie biblioteki a nie aplikacja. Żeby dało sie importować dostępne w bibliotece moduły do innego projektu.
+Błąd polegał na tym, że [Webpack]'a skonfigurowałem pod produkcję aplikacji a nie biblioteki czy narzędzia.
 
-Trafiłem na blog post:
-http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
-
-Potem się okazało, że w dokumentacji [Webpack]'a jest jak konfigurować pod development biblioteki:
-https://webpack.js.org/guides/author-libraries/
+Pomocny się okazał post [Start your own JavaScript library using webpack and ES6](http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6) oraz dokumentacja Wbpacka [Authoring Libraries](https://webpack.js.org/guides/author-libraries/)
 
 ## Czynności
 
