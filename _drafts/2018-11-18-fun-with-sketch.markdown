@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "[WIP] Fun with Sketch"
+title: "[WIP][EN] Fun with Sketch"
 categories: Sketch web-design tutorial
 ---
 
 ## What is Sketch?
 
-Takie pytanie sobie zadałem jak otrzymałem plik od grafika z rozszerzeniem `.sketch`.
-Szybko się okazało, inaczej być nie mogło, że ów plik jest obsługiwany przez [Sketch]'a - program do produkowania grafiki.
-Wtedy też się zastanawiałem, dlaczego nie [Photoshop]? Co ma takiego [Sketch], czego nie ma właśnie [Photoshop]?
+When I received a file with the `.sketch` extension I asked myself: "What is .sketch? Does it [Photoshop] thingy?"
+
+I downloaded [Sketch]. I struggled a while with it. Then watched some video tutorials on Youtube and [Skilltrive], and again struggled some more... And then I loved [Sketch]!
 
 ## He can do it!
 Do dzisiaj mi trudno na to pytanie odpowiedzieć. Ale! Zauważyłem, że ktoś, kto za bardzo grafiką się nie zajmuje, zaczął tworzyć makiety. Takie czysto poglądowe. Pomogły one rozwinąć pewne pomysły, bez jakiegoś wchodzenia w dyskusje, o tym co jak ma działać i wyglądać. Łatwo się było do nich odnosić. Enyłej...
@@ -58,5 +58,6 @@ Myślę, że będę rozwijął umiejęntości związane z tym programem. Możliw
 
 [Sketch]: https://en.wikipedia.org/wiki/Code_coverage
 [Photoshop]: https://facebook.github.io/jest/
+[Skilltrive]: https://skillthrive.com
 [Landing Page Prototype]: https://skillthrive.com/course/sketch-app-tutorial-landing-page/
 [Craft Manager]: https://www.invisionapp.com/craft
