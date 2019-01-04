@@ -14,4 +14,11 @@ Based on the contents of your Pantry Cookbook shows which dish you can prepare i
 
 I used [Ionic] v1.
 
+## Migration from [Ionic] v1 to v3
+
+I think [Ionic] v3 is stable version of this framework and I will use it for app. I don't want go with the newest 4th version for now. It has RC when I publish this post. I will struggle with many new things for me in v3 like "new" [Angular].
+
+I will build app upon one of the templates called **super**. So I generated app with this template and then I will add functionalities from old code to the new one.
+
 [Ionic]: https://ionicframework.com/
+[Angular]: https://angular.io/
