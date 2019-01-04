@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "jekyll serve --livereload",
+    "start:drafts": "jekyll serve --livereload --drafts",
     "start:production": "JEKYLL_ENV=production jekyll serve --livereload"
   },
   "repository": {
