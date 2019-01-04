@@ -20,5 +20,11 @@ I think [Ionic] v3 is stable version of this framework and I will use it for app
 
 I will build app upon one of the templates called **super**. So I generated app with this template and then I will add functionalities from old code to the new one.
 
+## Repo
+
+[My Cookbook] repo is on [Bitbucket]. It is public so you can go there and look into my code.
+
 [Ionic]: https://ionicframework.com/
 [Angular]: https://angular.io/
+[My Cookbook]: https://bitbucket.org/th3mon/my-cookbook-2/src/master/
+[Bitbucket]: https://bitbucket.org/
