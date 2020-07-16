@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "jekyll serve --livereload",
-    "start:drafts": "jekyll serve --livereload --drafts",
-    "start:production": "JEKYLL_ENV=production jekyll serve --livereload"
+    "start": "bundle exec jekyll serve",
+    "start:drafts": "npm run start -- --drafts",
+    "start:production": "JEKYLL_ENV=production bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
