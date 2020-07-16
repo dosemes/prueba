@@ -17,5 +17,7 @@ Chcę się zastosować do wyzwań z [8 Projects with Designs you can do to Becom
 
 Dlatego kod w postach nie będzie typu "foo/bar". Wiem, klasyka, ale ile można :-).
 
+W miarę jak się posty będą pojawiać, to dodam w każdym z nich spis treści, by można było po nich nawigować. Oczywiście włącznie z obecnym postem.
+
 [React Testing Library]: https://testing-library.com/docs/react-testing-library/intro
 [8 Projects with Designs you can do to Become FRONT-END developer - DEV]: https://dev.to/nghiemthu/8-projects-with-designs-you-can-do-to-become-front-end-developer-4pf8
